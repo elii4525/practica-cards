@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #ccc;
+    font-family: "Sour Gummy", sans-serif;
+}
+.card img{
+    width: 100%; /* La imagen toma el 100 del ancho de la tarjeta */
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+.card-content{
+    padding: 30px;
+}
