@@ -26,3 +26,23 @@ h1{
 .card-content{
     padding: 30px;
 }
+
+.card:hover{
+    background-color: rgb(164, 176, 228);
+    transform: scale(1.05);
+}
+
+.card .footer{
+    padding: 25px;
+    text-align: center;
+
+}
+
+.card .footer a{
+    text-decoration: none;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
